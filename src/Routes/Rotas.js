@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
-import { Home } from "../Home/Home";
+import { Home } from "../components/Pages/Home/Home";
 
 function ToTop() {
   const { pathname } = useLocation();
