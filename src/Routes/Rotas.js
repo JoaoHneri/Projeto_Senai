@@ -10,15 +10,19 @@ function ToTop() {
   return null;
 }
 
+
 const Rotas = () => {
   return (
+
     <Router>
       <ToTop />
       <Routes>
         <Route exact path="/" Component={Home} />
       </Routes>
     </Router>
+
   );
 };
+
 
 export default Rotas;
