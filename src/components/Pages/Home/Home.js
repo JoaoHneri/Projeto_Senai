@@ -131,11 +131,14 @@ export const Home = () => {
       <div className="showDevs">
           <img src={Devs} alt="Conheça nossos desenvolvedores" />
           <div className="devM">
+           
             <p>Conheça os Idealizadores e Desenvolvedores do ProSen</p>
             
+             <Link to={'/equipe'}>
             <button>
             CLIQUE AQUI <img src={Vector} alt="Clique Aqui" />
           </button>
+            </Link>
           </div>
       </div>
       <Footer/>
