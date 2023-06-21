@@ -20,7 +20,7 @@ export const Home = () => {
       <SectionBanner1 />
       <div className="content-container">
         <div className="tx-cont container Section_Prosen">
-        <h1>A Instituição</h1>
+          <h1>A Instituição</h1>
         </div>
         <section id="section">
           <div className="text-column">
@@ -110,7 +110,9 @@ export const Home = () => {
       </div>
       <div className="contCards">
               <div className="container div-title ">
-        <h1>Nossos Cursos</h1>
+              <div className="tx-cont container Section_Prosen">
+          <h1>Eventos</h1>
+        </div>
       </div>
       <div className="container-fluid edit-cont-cards">
         <div className="divEvent"><CardEvent /></div>

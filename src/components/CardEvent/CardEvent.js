@@ -3,6 +3,7 @@ import "../Styles/CardEvent.css"
 import imgCard from "../../Imagens/cardImg.png"
 import { HiLocationMarker } from 'react-icons/hi';
 import { BsFillCalendarCheckFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function CardEvent(){
      return(<>
@@ -19,8 +20,9 @@ function CardEvent(){
           <HiLocationMarker id='icon-cards' />  <p>SENAI - Feira de Santana</p>
           </div>
           <div className='Card-div-6'>
-
-          <button className='btn-cards'>SABER MAIS</button>
+          <Link to={'/eventos/id'}>
+            <button className='btn-cards'>SABER MAIS</button>
+          </Link>
           </div>
         </div>
       </div>

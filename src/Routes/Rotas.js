@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-
 import { Home } from "../components/Pages/Home/Home";
 import Eventos from "../components/Pages/Eventos/Eventos";
 import EventoById from "../components/Pages/EventoByID/EventoById";
+import Respositorios from "../components/Pages/Respositorios/Respositorios";
 
 function ToTop() {
   const { pathname } = useLocation();
@@ -20,6 +21,7 @@ const Rotas = () => {
         <Route exact path="/" Component={Home} />
         <Route exact path="/eventos" Component={Eventos} />
         <Route exact path="/eventos/id" Component={EventoById} />
+        <Route exact path="/repositorios" Component={Respositorios} />
       </Routes>
     </Router>
   );

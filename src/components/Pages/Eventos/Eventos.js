@@ -26,7 +26,7 @@ const Eventos = () => {
             </div>
             <div className="dropdown-content">
               <Dropdown>
-                <Dropdown.Toggle variant="white" id="dropdown-basic">
+                <Dropdown.Toggle variant="light" id="dropdown-basic">
                   Ordernar por
                 </Dropdown.Toggle>
 

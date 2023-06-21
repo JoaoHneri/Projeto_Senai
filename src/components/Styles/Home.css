@@ -144,7 +144,7 @@
     }
   }
   
-  .div-title, h1{
+  .div-title h1{
     font-family: 'Rambla', sans-serif; 
     color: #145EA8;
     font-size: 2.8rem;
