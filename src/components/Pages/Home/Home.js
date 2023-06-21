@@ -11,12 +11,13 @@ import Vector from "../../../Imagens/Vector.png";
 import CardEvent from "../../CardEvent/CardEvent";
 import Devs from '../../../Imagens/devs.png';
 import Footer from "../../Footer/Footer";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
     <div>
       <NavBar />
-      <SectionBanner1 />
+      <SectionBanner1 h1={'Repositório de Projetos'} br={'SENAI Feira de Santana'} img={'hero-section'}/>
       <div className="content-container">
         <div className="tx-cont container Section_Prosen">
           <h1>A Instituição</h1>
@@ -124,9 +125,11 @@ export const Home = () => {
           <img src={Devs} alt="Conheça nossos desenvolvedores" />
           <div className="devM">
             <p>Conheça os Idealizadores e Desenvolvedores do ProSen</p>
-            <button>
+            <Link to={"/idealizadores"}>
+              <button>
             CLIQUE AQUI <img src={Vector} alt="Clique Aqui" />
           </button>
+            </Link>
           </div>
       </div>
       <Footer/>
