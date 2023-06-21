@@ -1,0 +1,15 @@
+.informs{
+    display: flex;
+}
+.paragrafs{
+    width: 800px;
+}
+.details{
+    
+    padding-left: 80px;
+    
+}
+.paragrafs p {
+    white-space: pre-line;
+  }
+  

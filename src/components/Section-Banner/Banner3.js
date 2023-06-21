@@ -1,16 +1,22 @@
-import React from 'react'
+import React from "react";
+import "../Styles/Banner3.css";
 
 const Banner3 = () => {
   return (
     <div>
-      <section className="hero-section">
+      <section className="eventos">
         <div className="hero-content container">
-          <h1>Repositório de Projetos<br /> SENAI Feira de Santana</h1>
+          <div className="tx-cont">
+            <h1>Eventos</h1>
+            <p>Conectando talentos e transformando o futuro</p>
+          </div>
           <span id="span-tx"></span>
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Banner3
+export default Banner3;
+
+

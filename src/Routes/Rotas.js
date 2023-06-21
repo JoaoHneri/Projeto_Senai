@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
 import { Home } from "../components/Pages/Home/Home";
 import Eventos from "../components/Pages/Eventos/Eventos";
+import EventoById from "../components/Pages/EventoByID/EventoById";
 
 function ToTop() {
   const { pathname } = useLocation();
@@ -18,6 +19,7 @@ const Rotas = () => {
       <Routes>
         <Route exact path="/" Component={Home} />
         <Route exact path="/eventos" Component={Eventos} />
+        <Route exact path="/eventos/id" Component={EventoById} />
       </Routes>
     </Router>
   );

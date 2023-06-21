@@ -17,15 +17,16 @@ export const Home = () => {
   return (
     <div>
       <NavBar />
-      <SectionBanner1 h1={'Repositório de Projetos'} br={'SENAI Feira de Santana'} img={'hero-section'}/>
+      <SectionBanner1 />
       <div className="content-container">
         <div className="tx-cont container Section_Prosen">
-          <h1>A Instituição</h1>
+        <h1>A Instituição</h1>
         </div>
-
         <section id="section">
           <div className="text-column">
+            
             <div className="container edit-text">
+              
               <h2 className="section-heading">SENAI Feira de Santana</h2>
               <p id="par-tx-edit">
                 O Senai Feira de Santana tem como diferencial o uso de
@@ -117,19 +118,22 @@ export const Home = () => {
         <div className="divEvent"><CardEvent /></div>
         <div className="divEvent"><CardEvent /></div>
       </div>
+
       <div className="seeButton">
-        <button className="buttonCards">VER TODOS OS EVENTOS</button>
+        <Link to={'/eventos'}>
+          <button className="buttonCards">VER TODOS OS EVENTOS</button>
+        </Link>
+        
       </div>
       </div>
       <div className="showDevs">
           <img src={Devs} alt="Conheça nossos desenvolvedores" />
           <div className="devM">
             <p>Conheça os Idealizadores e Desenvolvedores do ProSen</p>
-            <Link to={"/idealizadores"}>
-              <button>
+            
+            <button>
             CLIQUE AQUI <img src={Vector} alt="Clique Aqui" />
           </button>
-            </Link>
           </div>
       </div>
       <Footer/>
