@@ -5,7 +5,7 @@ const SectionBanner2 = () => {
   return (
     
         <>
-       <section className="hero-section">
+       <section className="bannerEquipe">
         <div className="hero-content container">
           <h1>Conheça a equipe 
             <br/>por trás do ProSen </h1>

@@ -5,7 +5,7 @@ const BannerLogin = () => {
   return (
     
         <>
-       <section className="hero-section">
+       <section className="bannerLogin">
         <div className="hero-content container">
             <div>
             </div>

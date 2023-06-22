@@ -6,6 +6,8 @@ import EventoById from "../components/Pages/EventoByID/EventoById";
 import Respositorios from "../components/Pages/Respositorios/Respositorios";
 import Equipe from "../components/Pages/Equipe/Equipe";
 import Login from "../components/Pages/Login/Login";
+import PublicarProjeto from "../components/Pages/publicarProjeto/PublicarProjeto";
+import PublicarEvento from "../components/Pages/PublicarEvento/PublicarEvento";
 
 function ToTop() {
   const { pathname } = useLocation();
@@ -26,6 +28,8 @@ const Rotas = () => {
         <Route exact path="/repositorios" Component={Respositorios} />
         <Route exact path="/equipe" Component={Equipe} />
         <Route exact path="/login" Component={Login}/>
+        <Route exact path="/publicarProjeto" Component={PublicarProjeto}/>
+        <Route exact path="/publicarEvento" Component={PublicarEvento}/>
       </Routes>
     </Router>
   );

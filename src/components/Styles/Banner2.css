@@ -3,7 +3,7 @@
     padding-top: 90vh;
   }
   
-  .hero-section {
+  .bannerEquipe {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,7 +15,7 @@
     z-index: -1;
   }
   
-  .hero-section::before {
+  .bannerEquipe::before {
     content: "";
     position: absolute;
     top: 0;
@@ -26,7 +26,7 @@
     z-index: -1;
   }
   
-  .hero-section .hero-content {
+  .bannerEquipe .hero-content {
     display: flex;
     align-items: center;
     text-align: left;
@@ -34,7 +34,7 @@
     z-index: 1;
   }
   
-  .hero-section .hero-content h1 {
+  .bannerEquipe .hero-content h1 {
     font-size: 5.5rem;
     color: white;
     font-family: 'Rambla';
@@ -43,13 +43,13 @@
   }
   
   @media (max-width: 768px) {
-    .hero-section .hero-content h1 {
+    .bannerEquipe .hero-content h1 {
       font-size: 3.5rem;
     }
   }
   
   @media (max-width: 480px) {
-    .hero-section .hero-content h1 {
+    .bannerEquipe .hero-content h1 {
       font-size: 2.5rem;
     }
   }
