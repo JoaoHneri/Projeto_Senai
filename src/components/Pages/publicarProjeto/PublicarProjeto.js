@@ -51,7 +51,7 @@ const PublicarProjeto = () => {
         
         <div className="upArq">
             <img src={upImage} alt="Arraste o aquivo aqui ou selecione o arquivo" />
-            <button>Publicar Projeto</button>
+            <button>Editar Evento</button>
         </div>
 
 

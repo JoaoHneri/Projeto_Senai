@@ -36,11 +36,7 @@ const PublicarEvento = () => {
           <textarea rows="4"></textarea>
         </form>
         
-        <div className="upArq">
-            <p>Foto do Banner do Evento (1600x880): </p>
-          <img src={upImage} alt="Arraste o arquivo aqui ou selecione o arquivo" />
-          <button>Publicar Projeto</button>
-        </div>
+       
       </div>
     </div>
   );

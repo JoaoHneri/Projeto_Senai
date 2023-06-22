@@ -17,19 +17,23 @@ function NavBar() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav className="ml-auto">
-            <Nav.Link id="link-nav" href="#home">
+            
+            <Nav.Link id="link-nav" href="/#Eventos">
               Eventos
             </Nav.Link>
-            <Nav.Link id="link-nav" href="#link">
+            <Nav.Link id="link-nav" href="/#Repositorio">
               Repositório
             </Nav.Link>
-            <Nav.Link id="link-nav" href="#link">
+            <Nav.Link id="link-nav" target='blank' href="https://www.tecnicosenai.com.br/unidade-feira-de-santana/">
               Contato
             </Nav.Link>
             <div className='link-nav-login'>
-            <Nav.Link id="link-nav" href="#link">
+              <Link to={'/dashboard'}>
+                <Nav.Link id="link-nav" href="#link">
               Conta ProSen
             </Nav.Link>
+              </Link>
+            
             <FaUserAlt id='icon-nav'/>
             </div>
           </Nav>

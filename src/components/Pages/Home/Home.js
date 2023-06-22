@@ -101,14 +101,14 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className="BoxRepositories no-margin">
+        <div className="BoxRepositories no-margin" id="Repositorio">
           <p>Conheça o Repositório de Projetos SENAI Feira de Santana</p>
           <button>
             CLIQUE AQUI <img src={Vector} alt="Clique Aqui" />
           </button>
         </div>
       </div>
-      <div className="contCards">
+      <div className="contCards" id="Eventos">
               <div className="container div-title ">
               <div className="tx-cont container Section_Prosen">
           <h1>Eventos</h1>

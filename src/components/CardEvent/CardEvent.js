@@ -11,7 +11,8 @@ function CardEvent(){
         <div className='Card-div-2'>
           <div><img alt='' id='img-card' src={imgCard}/></div>
         </div>
-        <div className='Card-div-3 container'>
+        <div className='contsCard'>
+        <div className='Card-div-3'>
           <h5>Mostra de Projeto e<br/> Pesquisa Científica</h5>
           <div className='Card-div-4'>
           <BsFillCalendarCheckFill id='icon-cards'/> <p className=''>20/06/2023 </p>
@@ -25,6 +26,8 @@ function CardEvent(){
           </Link>
           </div>
         </div>
+        </div>
+        
       </div>
 
      </>
